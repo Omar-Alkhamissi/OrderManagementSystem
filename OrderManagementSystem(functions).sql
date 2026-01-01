@@ -19,6 +19,7 @@ BEGIN
 
     RETURN @avg_order_amount;
 END;
+GO
 
 -- Function 2: Returns the average order amount for all companies
 CREATE OR ALTER FUNCTION ufnGetAverageOrderAmountForAllCompanies()
