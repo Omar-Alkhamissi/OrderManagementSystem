@@ -1,4 +1,4 @@
-﻿--   Script: All Data For Case Study Tables - INFO3104
+﻿--   Script: Seed data for order management tables
 --   8 tables of data
 
 INSERT INTO Suppliers(SupplierID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax, HomePage) VALUES (1, 'Exotic Liquids', 'Charlotte Cooper', 'Purchasing Manager', '49 Gilbert St.', 'London', '', 'EC1 4SD', 'UK', '(171) 555-2222', '', '');

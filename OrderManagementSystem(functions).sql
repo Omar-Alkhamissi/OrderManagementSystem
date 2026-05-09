@@ -88,8 +88,7 @@ BEGIN
     OPEN order_cursor;
     FETCH NEXT FROM order_cursor INTO @order_id, @order_date;
 
-    PRINT 'Statistics for ' + @customer_name + ' ' + CONVERT(CHAR(14), FORMAT(@current_date, 'dd/MMM/yyyy')) +
-          '- Omar Alkhamissi';
+    PRINT 'Statistics for ' + @customer_name + ' ' + CONVERT(CHAR(14), FORMAT(@current_date, 'dd/MMM/yyyy'));
     PRINT 'Order #           Date                Status           Order Total';
 
     WHILE @@FETCH_STATUS = 0
